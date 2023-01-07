@@ -1,11 +1,20 @@
-* {
-  box-sizing: border-box;
+*{
+  margin: 0;
+  padding: 0;
 }
 
 body {
   font-family: "Karla", sans-serif;
   margin: 0;
-  background: whitesmoke;
+  background-image: linear-gradient(to right, #bdc3c7, #2c3e50);
+}
+
+.App {
+  width: 70%;
+  margin: 20px auto;
+  box-sizing: border-box;
+  background-color: white;
+  box-shadow: 0 0 10px 0;
 }
 
 nav {
@@ -15,7 +24,7 @@ nav {
   align-items: center;
   box-sizing: border-box;
   box-shadow: 0 0 8px 0 lightgrey;
-  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  background: linear-gradient(90deg, #3140c2, #7b91c3 );
   color: whitesmoke;
 }
 .header-img {
@@ -52,7 +61,7 @@ nav {
 .form-button {
   grid-column: 1 /-1;
   height: 2rem;
-  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  background: linear-gradient(90deg, #3140c2, #7b91c3 );
   color: whitesmoke;
   border: none;
   cursor: pointer;
@@ -92,4 +101,19 @@ nav {
 }
 .bottomText {
   bottom: 0;
+}
+
+
+.footer {
+  background-color: rgb(45, 41, 41);
+  margin: 20px 0;
+  bottom: 0;
+}
+
+.footer-text {
+  color: grey;
+  font-size: medium;
+  padding: 10px;
+  text-align: center;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }

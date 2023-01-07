@@ -1,4 +1,5 @@
 import React from "react";
+import Draggable from "react-draggable";
 
 
 export default function Meme() {
@@ -59,8 +60,8 @@ export default function Meme() {
        
         <div className="meme">
           <img src={meme.image} alt='meme' className="meme-image"></img>
-          <h1 className="text topText">{meme.topText}</h1>
-          <h1 className="text bottomText">{meme.bottomText}</h1>
+          <Draggable positionOffset={{ x: '-50%', y: '-10%' }}><h1 className="text topText">{meme.topText}</h1></Draggable>
+          <Draggable positionOffset={{ x: '-50%', y: '-10%' }}><h1 className="text bottomText">{meme.bottomText}</h1></Draggable>
         </div>
 
     </div>

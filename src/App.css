@@ -40,17 +40,26 @@ nav {
   font-weight: 500;
 }
 
+.instruction {
+  font-size: medium;
+  text-align: center;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: 20px;
+  color:rgb(120, 60, 18);
+}
+
 .form {
   display: grid;
-  grid-template: 50% 50% / 1fr 1fr;
+  grid-template-columns: auto auto ;
   gap: 10px;
 }
 
 .form {
   width: 50%;
   align-items: center;
-  margin: auto;
+  margin: 100px auto;
   margin-top: 1rem;
+
 }
 
 .form-input {
@@ -58,15 +67,19 @@ nav {
   text-indent: 5px;
   border: 1px solid grey;
 }
+
+.button {
+  display: inline-block
+}
+
 .form-button {
-  grid-column: 1 /-1;
   height: 2rem;
   background: linear-gradient(90deg, #3140c2, #7b91c3 );
   color: whitesmoke;
   border: none;
   cursor: pointer;
   width: 80%;
-  margin: auto;
+  margin: 5px auto;
 }
 
 .meme {
@@ -101,6 +114,11 @@ nav {
 }
 .bottomText {
   bottom: 0;
+}
+
+.middle {
+  top:0;
+  left:0;
 }
 
 
